@@ -1,0 +1,74 @@
+#layout {
+	font-family:'Playfair Display', serif; 
+}
+
+.icon {
+	float: right;
+	margin-right: 20px;
+	margin-top: -60px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#navlist {
+	width: 60%;
+	margin-left: 270px;
+	display: block;
+	height: 50px;
+	font-family: 'Playfair Display', serif;
+}
+.option {
+	display: block;
+	float: left;
+	width: 25%;
+}
+.quotebox {
+	text-align: center;
+	height: 200px;
+	background-color: pink;
+}
+.quote {
+	color: white;
+	padding-top: 5%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.cookie {
+	font-size: 19px;
+	text-align: center;
+}
+.container {
+	background: white;
+	overflow: hidden;
+	padding: 2%;
+}
+.about {
+	background: rgba(255,255,255,.8);
+	width: 90%;
+	margin: 0 auto;
+	padding: 4%;
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+.parallax {
+	background-image: url(../images/IMG_0116.jpg); 
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 20px;
+
+}
+img {
+	width: 100%;
+}
+footer {
+	background-color: white;
+	padding-top: 2%;
+	font-size: 10px;
+	text-align: center;
+}
