@@ -1,26 +1,33 @@
 body {
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Playfair Display', serif;
 }
 .header-cont {
 	position: fixed;
-	top: 0;
-	width: 100%;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    z-index: 802;
 }
-.Bria {
+.Logo {
 	float:left;
 	padding-left: 2%;
-	font-family:'Playfair Display', serif;
-}
-.icon {
-	float: right;
-	position: relative;
-	margin-top: 20px;
-	padding-right: 2%;
-	font-family:'Playfair Display', serif;
 }
 a{
 	text-decoration: none;
 	color: black;
+	font-size: 13px;
+    font-weight: 400;
+}
+.NavBar {
+
+	display: inline-block;
+	line-height: 75px;
+	letter-spacing: .5px;
+	padding: 20px 100px 0px 0px;
 }
 a:unvisited {
 	color: black;
@@ -31,25 +38,34 @@ a:visited {
 	text-decoration: none;
 }
 a:hover {
-	color: pink;
+	color: #AF1685;
 	text-decoration: none;
 }
-header {
-	margin: 0 auto;
-	background-color: white;
-	box-shadow: 0 0 5px rgba(0,0,0,.75);
-	padding-bottom: 1%;	
-}
-nav {
-	clear: both;
-	display: flex;
+.navigate {
+	float: right;
+	display: block;
 	justify-content: space-around;
 }
+li {
+	display: inline;
+	font-family: 'Paytone One', sans-serif;
+}
+.menu {
+	list-style: none;
+	text-align: left;
+}
+.cascade {
+	padding: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-width: .2rem;
+}
 .quotebox {
-	margin-top: 100px;
+	margin-top: 70px;
 	text-align: center;
 	min-height: 200px;
-	background-color: pink;
+	background-color: #EE2A7B;
 }
 .quote {
 	color: white;
@@ -61,7 +77,8 @@ nav {
 .author {
 	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
 	font-size: 21px;
-	font-family: 'Cookie', cursive;
+	font-family: 'Paytone One', sans-serif;
+
 }
 .quickbio {
 	font-size: 19px;
@@ -75,22 +92,15 @@ nav {
 	box-shadow: 0 0 5px rgba(0,0,0,.75);
 	border: lightgrey solid 1px;
 }
-.aboutparallax {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/IMG_0116.jpg); 
+.productparallax {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/autumnprofile.jpg); 
 	min-height: 450px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
-.doodleparallax {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/pinkdoodle.jpg); 
-	min-height: 450px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-.contactparallax {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/bwabout.jpg); 
+.testparallax {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/ayanaprofile.jpg); 
 	min-height: 450px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -103,6 +113,7 @@ nav {
 	letter-spacing: 2px;
 	padding: 15%;
 	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	font-family: 'Paytone One', sans-serif;
 }
 .about {
 	text-align: center;
@@ -114,9 +125,9 @@ nav {
 	padding: 20px;
 	font-family:'Playfair Display', serif;
 }
-.cursive {
-	font-family: 'Cookie', cursive;
-	color: pink;
+.boldword {
+	font-family: 'Paytone One', sans-serif;
+	font-size: 40px;
 }
 .container {
 	position: relative;
@@ -128,10 +139,14 @@ nav {
 .post {
 	font-size: 14px;
 }
+h2 {
+	font-family: 'Paytone One', sans-serif;
+}
 .subhead {
-	color: pink;
-	padding-top: 2%;
-	font-size: 13px;
+	font-family: 'Paytone One', sans-serif;
+	color: #AF1685;
+	padding-top: 1%;
+	font-size: 20px;
 }
 .blogpost {
 	color: black;
@@ -139,27 +154,21 @@ nav {
 	width: 0 auto;
 	margin: 0 auto;
 	text-align: center;
-}	
-.contactme {
-	padding: 10%;
-	display: block;
-	margin: 0 auto;
-	position: relative;
 }
 .form-horizontal {
 	padding-top: 10px;
 	padding-right: 20px;
 }
 footer {
-	background-color: pink;
+	background-color: #E9CDD0;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	font-size: 16px;
 	text-align: center;
-	font-family: 'Cookie', cursive;
+	font-family:'Playfair Display', serif;
 	box-shadow: 0 0 5px rgba(0,0,0,.75);
 	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
 }
 .social {
-	padding:10px;
+	padding:15px;
 }
